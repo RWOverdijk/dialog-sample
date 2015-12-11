@@ -3,7 +3,7 @@ import {DialogService} from 'aurelia-dialog';
 import {ModalTwo} from './modaltwo';
 
 @inject(DialogService)
-export class Welcome {
+export class Two {
   constructor(dialogService) {
     this.dialogService = dialogService;
   }

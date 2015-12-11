@@ -3,8 +3,8 @@ import {DialogService} from 'aurelia-dialog';
 import {ModalOne} from './modalone';
 
 @inject(DialogService)
-export class Users {
-  heading = 'Github Users';
+export class One {
+  heading = 'One';
   constructor(dialogService) {
     this.dialogService = dialogService;
   }
