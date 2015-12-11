@@ -3,9 +3,12 @@ import {DialogController} from 'aurelia-dialog';
 
 @inject(DialogController)
 export class ModalOne {
+  mock = {hasValidation: function () { return false; }};
+
   constructor (DialogController) {
     this.controller                               = DialogController;
     DialogController.settings.lock                 = false;
     DialogController.settings.centerHorizontalOnly = true;
   }
 }
+

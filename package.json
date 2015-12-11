@@ -58,7 +58,7 @@
   },
   "jspm": {
     "dependencies": {
-      "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1",
+      "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1.0.1",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1",
       "aurelia-dialog": "npm:aurelia-dialog@^0.5.1",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-beta.1",
@@ -71,8 +71,10 @@
       "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.0.1",
       "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.0.1",
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "daneden/animate.css": "github:daneden/animate.css@^3.4.0",
       "fetch": "github:github/fetch@^0.10.1",
       "font-awesome": "npm:font-awesome@^4.4.0",
+      "spoonx/aurelia-form": "github:spoonx/aurelia-form@^0.0.2",
       "text": "github:systemjs/plugin-text@^0.0.3"
     },
     "devDependencies": {

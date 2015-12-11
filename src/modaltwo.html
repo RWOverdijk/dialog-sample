@@ -1,1 +1,27 @@
-modaltwo.html
+<template>
+  <require from="./modaltwo-content"></require>
+
+  <div class="modal form-modal fade in">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Modal thingy</h4>
+        </div>
+
+        <div class="modal-body">
+          Look at my body, two. Get it? Two? aah...
+          <modaltwo-content data.bind="mock"></modaltwo-content>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-sm btn-default" click.delegate="controller.cancel()">
+            <span>Cancel</span>
+          </button>
+          <button type="submit" click.trigger="controller.ok()" class="btn btn-success btn-sm">
+            <span>do Okay</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,4 +1,6 @@
 <template>
+  <require from="./modalone-content"></require>
+
   <div class="modal form-modal fade in">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -8,6 +10,7 @@
 
         <div class="modal-body">
           Look at my body.
+          <modalone-content data.bind="mock"></modalone-content>
         </div>
 
         <div class="modal-footer">
